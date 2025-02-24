@@ -17,6 +17,9 @@ allprojects {
         jcenter()
     }
 }
+android {
+    namespace "com.example.flutter_bluetooth_serial"
+    }
 
 rootProject.buildDir = '../build'
 subprojects {
